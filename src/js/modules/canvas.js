@@ -7,12 +7,12 @@ const canvas = (function() {
   const settings = {
     circlesCount: 15,
     num: 300,
-    radius: window.innerHeight/3,
+    radius: 156,
     centerX: window.innerWidth/2,
     centerY: window.innerHeight/2,
     period: 15,
-    amplitude: 3,
-    color: 100
+    amplitude: 24,
+    color: 1504
   };
 
   let x, y, angle, variativeRadius;
